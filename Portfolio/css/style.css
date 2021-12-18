@@ -50,9 +50,7 @@ button {
   letter-spacing: 0.03em;
   color: #000;
   text-decoration: none;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .top-line-link:hover,
 .top-line-link:focus {
@@ -84,9 +82,7 @@ button {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #212121;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -114,9 +110,7 @@ button {
   height: 12px;
   margin-right: 10px;
   fill: var(--primary-text-color);
-  transition-property: fill, color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail-link:hover .mail-icon,
@@ -138,18 +132,13 @@ button {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  text-decoration: none;
-  transition-property: fill, color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tel-icon {
   width: 16px;
   height: 12px;
   fill: var(--primary-text-color);
-  transition-property: fill, color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tel-link:hover .tel-icon,
 .tel-link:focus .tel-icon {
@@ -168,9 +157,7 @@ button {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #757575;
-  transition-property: fill, color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link:hover,
@@ -209,8 +196,7 @@ button {
   background: #f5f4fa;
   border-radius: 4px;
   border-color: #f5f4fa;
-  transition-property: background-color, fill,
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
