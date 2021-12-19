@@ -443,23 +443,17 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.link-icon {
+  display: block;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.1);
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-link:hover {
+.link-icon:hover {
   background-color: #2196f3;
 }
 .link-icon:focus {
@@ -470,5 +464,7 @@ button {
 }
 
 .social-icon {
+  margin-top: 12px;
+  margin-left: 12px;
   fill: #afb1b8;
 }
