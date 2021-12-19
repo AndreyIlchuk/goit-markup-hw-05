@@ -247,13 +247,13 @@ button {
   color: #ffffff;
   opacity: 0;
 }
-.container1:hover .description-text {
+.work:hover .description-text {
   transform: translateY(0);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   overflow: visible;
   opacity: 1;
 }
-.container1:focus .description-text {
+.work:focus .description-text {
   transform: translateY(0);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   overflow: visible;
