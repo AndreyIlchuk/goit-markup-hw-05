@@ -466,5 +466,5 @@ button {
 .social-icon {
   margin-top: 12px;
   margin-left: 12px;
-  fill: #afb1b8;
+  fill: var(--accent-color);
 }
