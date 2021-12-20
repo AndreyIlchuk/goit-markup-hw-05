@@ -58,16 +58,26 @@
     <main>
       <!--Title-etions-->
 
-      <section class="header-title">
-        <div class="title-container">
+    <section class="header-title">
+       <div class="title-container">
           <h1 class="text">
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
            <div>
-            <button class="button" type="button" data-modal-open>Заказать услугу</button>
+              <button data-modal-open class="button" type="button">Заказать услугу</button>
            </div>
-        </div>
+               <div class="backdrop is-hidden" data-modal>
+                 <div class="modal">
+                   <button type="button" class="close-modal" data-modal-close>
+                     <svg class="close-button" width="11px" height="11px">
+                       <use href="./img/symbol-defs.svg#icon-close"></use>
+                     </svg>
+                   </button>
+                 </div>
+              </div>
+            
+      </div>
       </section>
 
       <!--peculiarities-seсtion-->
@@ -415,12 +425,7 @@
            </div>
          </section>
     </footer>
-     <div class="backdrop is-hidden" data-modal>
-       <div class="modal">
-         <button data-modal-close>Закрыть</button>
-          <p></p>
-       </div>
-    </div>
+    
           
     <script src="./js/modal.js"></script>
   </body>
