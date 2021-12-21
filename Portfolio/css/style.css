@@ -235,8 +235,6 @@ button {
   position: absolute;
   top: 0;
   left: 0;
-  transform: translateY(100%);
-
   padding: 63px 24px;
   font-family: Roboto;
   font-style: normal;
@@ -246,17 +244,15 @@ button {
   letter-spacing: 0.03em;
   color: #ffffff;
   opacity: 0;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .work:hover .description-text {
   transform: translateY(0);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  overflow: visible;
   opacity: 1;
 }
 .work:focus .description-text {
   transform: translateY(0);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  overflow: visible;
   opacity: 1;
 }
 .container2 {
@@ -273,8 +269,6 @@ button {
 }
 .container2:hover .description-text {
   transform: translateY(0);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  overflow: visible;
   opacity: 1;
 }
 .container3 {
@@ -290,8 +284,6 @@ button {
 }
 .container3:hover .description-text {
   transform: translateY(0);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  overflow: visible;
   opacity: 1;
 }
 .container4 {
@@ -309,8 +301,6 @@ button {
 }
 .container4:hover .description-text {
   transform: translateY(0);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  overflow: visible;
   opacity: 1;
 }
 .container5 {
@@ -328,8 +318,6 @@ button {
 }
 .container5:hover .description-text {
   transform: translateY(0);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  overflow: visible;
   opacity: 1;
 }
 .container6 {
@@ -346,8 +334,6 @@ button {
 }
 .container6:hover .description-text {
   transform: translateY(0);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  overflow: visible;
   opacity: 1;
 }
 .container7 {
@@ -365,8 +351,6 @@ button {
 }
 .container7:hover .description-text {
   transform: translateY(0);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  overflow: visible;
   opacity: 1;
 }
 
@@ -385,8 +369,6 @@ button {
 }
 .container8:hover .description-text {
   transform: translateY(0);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  overflow: visible;
   opacity: 1;
 }
 .container9 {
@@ -403,8 +385,6 @@ button {
 }
 .container9:hover .description-text {
   transform: translateY(0);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  overflow: visible;
   opacity: 1;
 }
 .title {
